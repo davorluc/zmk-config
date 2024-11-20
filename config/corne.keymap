@@ -50,10 +50,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB         &kp KP_NUMBER_1  &kp KP_N2        &kp KP_NUMBER_3  &kp KP_NUMBER_4  &kp KP_NUMBER_5    &kp CARET  &kp AMPS       &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&kp LEFT_SHIFT  &kp KP_NUMBER_6  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0    &kp MINUS  &kp EQUAL      &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
-&kp LCTRL       &trans           &trans           &trans           &trans           &trans             &kp UNDER  &kp PLUS       &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                                                  &kp LGUI         &trans           &kp SPACE          &kp RET    &kp BACKSPACE  &kp RALT
+&kp TAB         &kp KP_NUMBER_1  &kp KP_N2         &kp KP_NUMBER_3  &kp KP_NUMBER_4    &kp KP_NUMBER_5    &kp CARET  &kp AMPS       &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
+&kp LEFT_SHIFT  &kp KP_NUMBER_6  &kp KP_NUMBER_7   &kp KP_NUMBER_8  &kp KP_NUMBER_9    &kp KP_NUMBER_0    &kp MINUS  &kp EQUAL      &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
+&kp LCTRL       &kp LESS_THAN    &kp GREATER_THAN  &kp DOLLAR       &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &kp UNDER  &kp PLUS       &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
+                                                   &kp LGUI         &trans             &kp SPACE          &kp RET    &kp BACKSPACE  &kp RALT
             >;
         };
     };
