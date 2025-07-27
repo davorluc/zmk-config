@@ -35,10 +35,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3   &kp NUMBER_4  &kp N5         &kp CARET    &bt BT_CLR_ALL  &kp N8    &kp N9     &kp N0        &kp BSPC
-&kp LSHIFT  &kp NUMBER_6  &kp N7        &kp N8         &kp N9        &kp N0         &kp LEFT     &kp DOWN        &kp UP    &kp RIGHT  &kp C_VOL_DN  &kp C_VOLUME_UP
-&kp LCTRL   &kp LALT      &kp PAGE_UP   &kp PAGE_DOWN  &trans        &bootloader    &bootloader  &trans          &trans    &trans     &trans        &trans
-                                        &kp LGUI       &trans        &kp SPACE      &kp RET      &trans          &kp RALT
+&kp TAB     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5         &kp CARET    &bt BT_CLR_ALL  &kp N8    &kp N9     &kp N0        &kp BSPC
+&kp LSHIFT  &kp NUMBER_6  &kp N7        &kp N8        &kp N9        &kp N0         &kp LEFT     &kp DOWN        &kp UP    &kp RIGHT  &kp C_VOL_DN  &kp C_VOLUME_UP
+&kp LCTRL   &kp LALT      &trans        &trans        &trans        &bootloader    &bootloader  &trans          &trans    &trans     &trans        &trans
+                                        &kp LGUI      &trans        &kp SPACE      &kp RET      &trans          &kp RALT
             >;
         };
 
@@ -50,10 +50,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB    &kp EXCL            &kp AT                &kp HASH               &kp DLLR           &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp RALT
-&kp LCTRL  &kp LS(LEFT_BRACE)  &kp LS(RIGHT_BRACE)   &kp LESS_THAN          &kp LS(LESS_THAN)  &trans       &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp APOS  &kp BACKSLASH
-&kp LSHFT  &trans              &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &trans             &trans       &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                                                     &kp LGUI               &trans             &kp SPACE    &kp RET    &trans     &kp RALT
+&kp TAB    &kp EXCL      &kp AT                &kp HASH               &kp DLLR           &kp PRCNT    &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR  &kp RPAR  &kp RALT
+&kp LCTRL  &kp RA(APOS)  &kp RA(BACKSLASH)     &kp LESS_THAN          &kp LS(LESS_THAN)  &trans       &kp MINUS  &kp EQUAL  &trans     &trans    &trans    &trans
+&kp LSHFT  &trans        &kp RA(LEFT_BRACKET)  &kp RA(RIGHT_BRACKET)  &trans             &trans       &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
+                                               &kp LGUI               &kp RALT           &kp SPACE    &kp RET    &trans     &kp RALT
             >;
         };
     };
